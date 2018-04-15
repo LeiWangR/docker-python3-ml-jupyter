@@ -74,7 +74,7 @@ EXPOSE 8888
 # TensorBoard
 EXPOSE 6006
 
-WORKDIR /notebooks
+# WORKDIR /notebooks
 
 RUN chmod +x /run_cmd.sh
 

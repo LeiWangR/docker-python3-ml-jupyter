@@ -8,3 +8,5 @@ services:
      - "6006:6006"
     volumes:
      - ./notebooks:/notebooks
+     - /Users/bowenli/github/udacity-google-deep-learning-tensorflow:/udacity-google-deep-learning-tensorflow
+
