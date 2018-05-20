@@ -75,6 +75,7 @@ EXPOSE 8888
 EXPOSE 6006
 
 # WORKDIR /notebooks
+WORKDIR /bowenli
 
 RUN chmod +x /run_cmd.sh
 
